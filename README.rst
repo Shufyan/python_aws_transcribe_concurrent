@@ -67,32 +67,21 @@ Then, from a Python interpreter:
     >>> for bucket in s3.buckets.all():
             print(bucket.name)
 
-<<<<<<< HEAD:README.rst
-Required Libraries:
--------------------
-=======
 
 Required Libraries:
----------------
->>>>>>> d7d6082df23de633ee90811c1ab228c6cd2aae21:README.md
+-------------------
 * Python 3.0+
 * boto3
 * tscribe
 
 **Note:** In order to Tscribe work successfully, I need to "pip install PyQt5" in my environment. You may require if receive any error.
 
-<<<<<<< HEAD:README.rst
 How to Use?
 -----------
-=======
-
-How to Use?
----------------
->>>>>>> d7d6082df23de633ee90811c1ab228c6cd2aae21:README.md
 1. Download or Clone the repo to your local system.
 2. “pip install <lib name>” the required libraries.
 3. Set the required variables in the parameters.py.
 4. Add some audio files in "input" folder.
-4. Open the "code" folder in terminal and run the "transcribe_script.py" file.
+5. Open the "code" folder in terminal and run the "transcribe_script.py" file.
 
  
