@@ -24,8 +24,8 @@ Assuming that you have Python and ``virtualenv`` installed, set up your environm
 
 .. code-block:: sh
 
-    $ git clone https://github.com/boto/boto3.git
-    $ cd boto3
+    $ git clone https://github.com/Shufyan/python_aws_transcribe_concurrent.git
+    $ cd python_aws_transcribe_concurrent
     $ virtualenv venv
     ...
     $ . venv/bin/activate
