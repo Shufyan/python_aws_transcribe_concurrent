@@ -1,6 +1,9 @@
-# Audio to Text Transcrition using (AWS S3 & Transcribe) service - Concurrent Jobs.
+=================================================================================
+Audio to Text Transcrition using (AWS S3 & Transcribe) service - Concurrent Jobs.
+=================================================================================
 
-### About:
+About:
+------
 Shows how to use the AWS SDK for Python (Boto3) with the Amazon Transcribe API to transcribe an audio file to a text file. Also to export the transription JSON results into a meaningful Word docx file using Tscribe module.
 
 More about Tscribe can be found here: https://pypi.org/project/tscribe/
@@ -64,15 +67,16 @@ Then, from a Python interpreter:
     >>> for bucket in s3.buckets.all():
             print(bucket.name)
 
-### Required Libraries:
+Required Libraries:
+-------------------
 * Python 3.0+
 * boto3
 * tscribe
 
 **Note:** In order to Tscribe work successfully, I need to "pip install PyQt5" in my environment. You may require if receive any error.
 
-### How to Use?
-
+How to Use?
+-----------
 1. Download or Clone the repo to your local system.
 2. “pip install <lib name>” the required libraries.
 3. Set the required variables in the parameters.py.
