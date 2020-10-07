@@ -3,7 +3,7 @@ Audio to Text Transcription using (AWS S3 & Transcribe) service - Concurrent Job
 =================================================================================
 
 Table of Contents
------------------
+~~~~~~~~~~~~~~~~~
 * `About`_
 * `Architecture Diagram`_
 * `Required Libraries`_
