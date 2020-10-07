@@ -4,6 +4,7 @@ Audio to Text Transcription using (AWS S3 & Transcribe) service - Concurrent Job
 
 * `About`_
 * `Architecture Diagram`_
+* `Getting Started`_
 * `Required Libraries`_
 * `Job Queuing Setup`_
 * `How to Use?`_
